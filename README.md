@@ -1,4 +1,6 @@
 ![](https://img.shields.io/badge/made%20with-vue.js-green?logo=vue.js).
+![](https://img.shields.io/badge/made%20with-jest-red?logo=jest).
+
 <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Frevolalex%2FVue_Jest_Test" alt="Hits">.
 
 # Vue.js Jest Test
@@ -6,11 +8,18 @@
 ## Jest
 By default, Jest will run all the tests present in a tests / unit or `__tests__` folder. For example, the tests in app.spec.js will be spotted and run by Jest
 
+
+
+Form more detail: <a href="https://jestjs.io/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRY9fpFgbAzYIcauvzX3dqHgO270eabr24oJg&usqp=CAU" alt="" width="80px;"></a>
+<br>
+
+
 ### This library offers an API to test the Vue components, here are some of the most used methods:
 
 - mount: creates a Wrapper that contains the mounted and rendered Vue component;
 - shallowMount: like mount, it creates a Wrapper that contains the mounted and rendered Vue component, but with stubbed child components;
 - createLocalVue: returns a Vue class for you to add components, mixins and install plugins without polluting the global Vue class.
+
 
 ### The class Wrapper representing your mounted component offers method such as:
 
@@ -18,6 +27,11 @@ By default, Jest will run all the tests present in a tests / unit or `__tests__`
 - .find(), .findAll(): search for HTML in the component
 - .setData(), .setMethods(), .setProps(): override options in your component
 - .trigger(): trigger events
+
+
+
+Form more detail: <a href="https://vue-test-utils.vuejs.org/api/wrapper/#setmethods"><img src="https://vuejs.org/images/logo.png" alt="" width="40px;"></a>
+<br>
 
 ## Settings:
 Let’s make some changes to the default files that the vue-cli create for us.

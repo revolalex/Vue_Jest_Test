@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/made%20with-vue.js-green?logo=vue.js).
+<img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Frevolalex%2FVue_Jest_Test" alt="Hits">.
+
 # Vue.js Jest Test
 
 ## Jest
@@ -136,7 +139,24 @@ it('button click with correct sum', () => {
 
 On the other hand, when we set the sum to be correct, wrapper.vm.message will say ‘SUCCESS!’
 
-## Conclusion 
-i just created my first test in vue.js
+## Conclusion
+I have just created my first test
+
+ 
+## Status
+Project is:  _Finish_
+
+
+## Contact	
+- [![LinkedIn][linkedin-shield]][linkedin-url] 	
+- revolalex@gmail.com
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/alexandre-rodrigueza/
+
+
 
 
